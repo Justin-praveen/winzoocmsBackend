@@ -1,0 +1,27 @@
+{
+  "name": "winzoocmsbackend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fastify/type-provider-typebox": "^3.5.0",
+    "@sinclair/typebox": "^0.31.6",
+    "aws-sdk": "^2.1446.0",
+    "fastify": "^4.22.0",
+    "fastify-plugin": "^4.5.1",
+    "moment": "^2.29.4",
+    "mysql2": "^3.6.0",
+    "sequelize": "^6.32.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.5.7",
+    "typescript": "^5.2.2"
+  }
+}
